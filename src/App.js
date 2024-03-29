@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './modules/NavBar';
+import React from 'react';
+import Rotas from './modules/Rotas';
+import EditRoutes from './modules/EditRoutes';
 
 function App() {
+  const [section, setSection] = React.useState(0);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar section={section} setSection={setSection} />
+      {section === 0 ? <Rotas /> : null}
+      {section === 1 ? <EditRoutes /> : null}
     </div>
   );
 }

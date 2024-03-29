@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "name": "Rota 1",
+    "description": "Rota 1",
+    "dia": [
+      {
+        "name": "Pidgey",
+        "chance": "100",
+        "shiny": false,
+        "nature": {
+          "name": "Naughty",
+          "WIS": 2,
+          "CHA": -2
+        }
+      },
+      {
+        "name": "Rattata",
+        "chance": "140",
+        "shiny": false,
+        "nature": {
+          "name": "Curious",
+          "WIS": 2,
+          "CON": -2
+        }
+      },
+      {
+        "name": "Ekans",
+        "chance": "65",
+        "shiny": false,
+        "nature": {
+          "name": "Relaxed",
+          "CON": 2,
+          "STR": -2
+        }
+      },
+      {
+        "name": "Poochyena",
+        "chance": "58",
+        "shiny": false,
+        "nature": {
+          "name": "Nimble",
+          "AC": 1,
+          "STR": -2
+        }
+      },
+      {
+        "name": "Bellsprout",
+        "chance": "90",
+        "shiny": false,
+        "nature": {
+          "name": "Cheerful",
+          "CHA": 2,
+          "STR": -2
+        }
+      },
+      {
+        "name": "Zigzagoon",
+        "chance": "50",
+        "shiny": false,
+        "nature": {
+          "name": "Curious",
+          "WIS": 2,
+          "CON": -2
+        }
+      },
+      {
+        "name": "Spearow",
+        "chance": "125"
+      }
+    ],
+    "noite": [
+      {
+        "name": "Meowth",
+        "chance": "75"
+      },
+      {
+        "name": "Ekans",
+        "chance": "140"
+      },
+      {
+        "name": "Pidgey",
+        "chance": "40"
+      },
+      {
+        "name": "Zubat",
+        "chance": "80"
+      },
+      {
+        "name": "Hoothoot ",
+        "chance": "130"
+      },
+      {
+        "name": "Spearow",
+        "chance": "100"
+      },
+      {
+        "name": "Spinarak",
+        "chance": "100"
+      },
+      {
+        "name": "Houndour ",
+        "chance": "80"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Rota 2",
+    "description": "Rota 2",
+    "dia": [
+      {
+        "name": "Squirtle",
+        "chance": 50
+      },
+      {
+        "name": "Wartortle",
+        "chance": 50
+      }
+    ],
+    "noite": [
+      {
+        "name": "Weedle",
+        "chance": 20
+      },
+      {
+        "name": "Kakuna",
+        "chance": 80
+      }
+    ]
+  }
+]
